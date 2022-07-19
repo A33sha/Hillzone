@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+h2 {
+    font-size: 28px;
+    width: 85%;
+    margin: 25px auto;
+}
+p {
+    font-size: 20px;
+}
+.header {
+    height: 100vh;
+	text-align: center;
+    background: url(/Images/about-hero-blur.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.logo {
+    height: 30px;
+}
+
+.navbar {
+    width: 100%;
+    padding: 40px 0;
+}
+
+.navbar-nav .nav-item {
+    color: #ffffff;
+    transition: .2s;
+}
+
+.navbar-nav .nav-item:hover {
+    color: crimson;
+}
+.header-content {
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 225px auto;
+}
+
+.header .header-content h1 {
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, .5);
+}
+.about {
+    text-align: center;
+    padding: 70px 0;
+}
+
+.about .content {
+    text-align: center;
+}
+
+.about .content img{
+    width: 900px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.about  .text{
+    text-align: justify;
+    width: fit-content;
+    height:fit-content;
+    margin-Top: 50px;
+}
+.core-values {
+    background: linear-gradient(to right, rgb(113, 197, 94), rgb(2, 80, 145));
+    text-align: center;
+    padding: 70px 0;
+}
+.core-values .content{
+    text-align: justify;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    
+}
+.core-values .content .values{
+    width: 250px;
+    height: 250px;
+    margin: 50px;
+    
+}
+
+footer{
+    text-align: center;
+    color: #fff;
+    background: linear-gradient(to right, rgb(113, 197, 94), rgb(2, 80, 145));
+    height: fit-content;
+    padding: 35px 0 10px;
+}
+footer .container{
+    display: flex;
+    justify-content: space-between;
+}
+footer .first{
+    text-align: left;
+}
+footer .first .navbar-brand{
+    display: inline-block;
+}
+footer .first .links, footer .first .navbar-brand{
+    margin-bottom: 25px;
+}
+footer .first .navbar-brand .logo{
+    height: 28px;
+}
+footer .first .links a{
+    color: #fff;
+    font-size: 24px;
+    margin-right: 15px;
+}
+footer .first .links a:hover, .copyright a{
+    color: crimson;
+}
+footer .first p{
+    font-size: 14px;
+    width: 400px;
+    text-align: justify;
+}
+
+footer .navbar-nav .nav-item{
+    text-align: justify;
+    padding: 0;
+    margin: 5px 0;
+}
+.contact{
+    display: flex;
+    text-align: justify;
+    flex-direction: column;
+    text-align: left;
+}
+.contact p, .location p{
+    font-size: 14px;
+    line-height: 30px;
+}
+.location{
+    text-align: justify;
+}
+.contact a{
+    font-size: 16px;
+    text-decoration: none;
+    margin: 5px 0;
+    color: #ffffff;
+}
+.contact a:hover{
+    color: crimson;   
+}
+.copyright{
+    margin: 20px 0;
+    display: inline-block;
+    font-size: 14px;
+    color: #fff;
+}
+.copyright a{
+    color: #fff;
+    text-decoration: none;
+    margin-left: 15px;
+}

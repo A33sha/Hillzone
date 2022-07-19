@@ -1,0 +1,360 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+h2 {
+    font-size: 28px;
+    width: 85%;
+    margin: 25px auto;
+}
+p {
+    font-size: 20px;
+}
+.title{
+    margin-bottom: 20px;
+}
+.header {
+    height: 100vh;
+	text-align: center;
+}
+.video-container{
+    position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.video-container .video {
+    min-width: 100%;
+	min-height: 100%;
+  position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	object-fit: cover;  
+}
+
+.logo {
+    height: 30px;
+}
+
+.navbar {
+    width: 100%;
+    padding: 40px 0;
+}
+
+.navbar-nav .nav-item {
+    color: #ffffff;
+    transition: .2s;
+}
+
+.navbar-nav .nav-item:hover {
+    color: crimson;
+}
+.navbar button span{
+    z-index: 1;
+}
+
+.header-content {
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 225px auto;
+}
+
+.header .header-content h1 {
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, .5);
+}
+
+.header .header-content p {
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, .5);
+    width: 600px;
+    margin: 20px auto 40px;
+    text-align: center;
+}
+
+.header .header-content .btn {
+    width: fit-content;
+    height: fit-content;
+    padding: 15px 50px;
+    border-radius: 100px;
+    margin: 0 15px;
+    background: linear-gradient(to right, rgb(113, 197, 94), rgb(2, 80, 145));
+}
+
+.header .header-content .btn:hover {
+    color: black;
+    background: linear-gradient(to right, rgb(2, 80, 145), rgb(113, 197, 94));
+}
+
+.header .header-content h1 .vision {
+    font-size: 60px;
+    color: aqua;
+}
+
+.header .header-content h1 .alive {
+    font-size: 40px;
+    color: coral;
+    text-decoration: green wavy underline;
+    text-underline-offset: 0.2em;
+    text-underline-position: right;
+}
+.about {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.about .content {
+    text-align: center;
+}
+
+.about .content img{
+    width: 900px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.about  .text{
+    text-align: justify;
+    width: fit-content;
+    height:fit-content;
+    margin-Top: 50px;
+}
+
+
+
+
+.services {
+    text-align: center;
+    padding: 70px 0;
+    background: linear-gradient(to right, rgb(113, 197, 94), rgb(2, 80, 145));
+}
+.services .container .cards{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.services .container .cards figure {
+    width: 500px;
+    padding: 50px;
+    height: 500px;
+    border-radius: 5px;
+    position: relative;
+    transition: all 0.3s;
+    background: #fff;
+    text-align: justify;
+    margin: 20px;
+    
+}
+
+h4 {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.services .container .cards figure figcaption {
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #141c3a;
+    color: #fff;
+    opacity: 0;
+    transition: opacity 0.3s ease-in;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 200px 0;
+}
+
+.services .container .cards figure:hover figcaption {
+    opacity: .8;
+}
+
+.services .container .cards figcaption a {
+    color: #fff;
+    border: 3px solid rgb(113, 197, 94);
+    border-radius: 50px;
+    display: block;
+    font-size: 18px;
+    padding: 10px;
+    width: fit-content;
+    text-decoration: none;
+    margin: auto;
+}
+
+.services .container .cards figcaption a:hover {
+    background-color: #71c55e;
+    color: black;
+}
+
+
+.strategies {
+    text-align: center;
+    padding: 70px 0;
+    background-color: #fff;
+}
+.strategies .container .cards{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.strategies .container .cards .card{
+    width: 400px;
+    height: 800px;
+    margin: 20px;
+    border: 2px solid #E6ECF8;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px #E6ECF8;
+    text-align: justify;
+}
+.strategies .container .cards .card .card-body{
+    padding: 20px;
+}
+.strategies a i{
+    color: rgb(113, 197, 94);
+}
+
+.how-we-do-it{
+    text-align: center;
+    padding: 70px 0;
+}
+.how-we-do-it .content{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.how-we-do-it .content .item{
+    text-align: justify;
+    padding: 15px;
+    display: flex;
+    height: 300px;
+    margin: 30px 0;
+}
+.how-we-do-it .content .item img{
+    height: 300px;
+}
+.how-we-do-it .content .item div{
+    width: 400px;
+    height: 300px;
+    margin-left: 20px;
+}
+.how-we-do-it .content .item-right{
+    align-self: flex-end;
+}
+.how-we-do-it .content .item-right div{
+    margin-right: 20px;   
+}
+
+
+
+.core-values {
+    text-align: center;
+    padding: 70px 0;
+    background: linear-gradient(to right, rgb(113, 197, 94), rgb(2, 80, 145));
+}
+.core-values .content{
+    text-align: justify;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    
+}
+.core-values .content .values{
+    width: 250px;
+    height: 250px;
+    margin: 50px;
+    
+}
+
+footer{
+    text-align: center;
+    color: #fff;
+    background: linear-gradient(to right, rgb(113, 197, 94), rgb(2, 80, 145));
+    height: fit-content;
+    padding: 35px 0 10px;
+}
+footer .container{
+    display: flex;
+    justify-content: space-between;
+}
+footer .first{
+    text-align: left;
+}
+footer .first .navbar-brand{
+    display: inline-block;
+}
+footer .first .links, footer .first .navbar-brand{
+    margin-bottom: 25px;
+}
+footer .first .navbar-brand .logo{
+   height: 28px;
+}
+footer .first .links a{
+    color: #fff;
+    font-size: 24px;
+    margin-right: 15px;
+    }
+footer .first .links a:hover, .copyright a{
+    color: crimson;
+}
+footer .first p{
+    font-size: 14px;
+    width: 400px;
+    text-align: justify;
+}
+
+footer .navbar-nav .nav-item{
+    text-align: justify;
+    padding: 0;
+    margin: 5px 0;
+}
+.contact{
+    display: flex;
+    text-align: justify;
+    flex-direction: column;
+    text-align: left;
+}
+.contact p, .location p{
+    font-size: 14px;
+    line-height: 30px;
+}
+.location{
+    text-align: justify;
+}
+.contact a{
+    font-size: 16px;
+    text-decoration: none;
+    margin: 5px 0;
+    color: #ffffff;
+}
+.contact a:hover{
+    color: crimson;   
+}
+.copyright{
+    margin: 20px 0;
+    display: inline-block;
+    font-size: 14px;
+    color: #fff;
+}
+.copyright a{
+    color: #fff;
+    text-decoration: none;
+    margin-left: 15px;
+}
