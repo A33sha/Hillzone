@@ -54,9 +54,15 @@ p {
     left: 50px;
 }
 
-.contact .content {
+.contact .title {
     color: black;
-    text-align: center;
+    text-align: left;
+}
+.contact .container .form div{
+    width: 50%;
+}
+.contact .container .form div label{
+   font-size: 14px;
 }
 footer{
     text-align: center;
