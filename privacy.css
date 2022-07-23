@@ -35,7 +35,7 @@ p {
 }
 
 .navbar-nav .nav-item:hover {
-    color: crimson;
+    color: lavender;
 }
 .header-content {
     color: #fff;
@@ -113,7 +113,7 @@ footer .navbar-nav .nav-item{
     color: #ffffff;
 }
 .contact a:hover{
-    color: crimson;   
+    color: lavender;   
 }
 .copyright{
     margin: 20px 0;

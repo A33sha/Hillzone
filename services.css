@@ -21,28 +21,8 @@ p {
 
 .header {
     height: 100vh;
-    /* text-align: center; */
+    background: url(/Images/hero-blur_171019_201210.jpg);
 }
-
-.video-container {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-}
-
-.video-container .video {
-    min-width: 100%;
-    min-height: 100%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    object-fit: cover;
-}
-
 .logo {
     height: 30px;
 }
@@ -122,32 +102,29 @@ p {
 .about .content {
     margin-top: 29px;
     display: flex;
+    text-align: center;
     flex-wrap: wrap;
     justify-content: space-around;
-    gap: 20px;
-    height: fit-content;
 }
 
 .about .content .image {
     width: 500px;
-    height: 430px;
-    border-radius: 20px;
+    height: 370px;
+    border-radius: 10px;
 
-}
-.about .content .image img{
-    width: inherit;
-    height: inherit;
 }
 
 .about .text {
     text-align: justify;
-    width: 500px;
-    height: 500px;
+    width: 600px;
+    height: 450px;
 }
 
 .about .text a {
     text-decoration: none;
     text-transform: capitalize;
+    width: 600px;
+    height: 450px;
     font-weight: 800;
     color: #000;
     display: inline-block;
@@ -186,7 +163,7 @@ p {
     text-align: justify;
     margin: 20px;
     color: #000;
-    
+
 }
 
 h4 {
@@ -313,7 +290,7 @@ h4 {
 
 .contact-us .container button {
     background-color: #71c55e;
-    color: white;
+    color: rgb(240, 238, 238);
     margin-top: 10px;
     border-radius: 50px;
     border: none;
@@ -330,19 +307,31 @@ h4 {
     transform: scale(1.1);
 }
 
+.contact-us a {
+    display: inline-block;
+    color: #71c55e;
+    margin: 0 50px;
+}
+
+.contact-us a {
+    display: inline-block;
+    color: #71c55e;
+    margin: 0 50px;
+}
+
+
 footer {
+    text-align: center;
     color: #fff;
     background: linear-gradient(to right, rgb(113, 197, 94), #025091);
     height: fit-content;
     padding: 35px 0 10px;
 }
 
-footer .content {
+footer .container {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
 }
-
 
 footer .first {
     text-align: left;
@@ -372,6 +361,11 @@ footer .first .links a:hover,
     color: lavender;
 }
 
+footer .first p {
+    font-size: 14px;
+    width: 400px;
+    text-align: justify;
+}
 
 footer .navbar-nav .nav-item {
     text-align: justify;
@@ -408,14 +402,10 @@ footer .navbar-nav .nav-item {
 }
 
 .copyright {
-    text-align: left;
+    margin: 20px 0;
+    display: inline-block;
     font-size: 14px;
     color: #fff;
-}
-.copyright p {
-    font-size: 14px;
-    width: 400px;
-    text-align: justify;
 }
 
 .copyright a {
@@ -424,42 +414,39 @@ footer .navbar-nav .nav-item {
     margin-left: 15px;
 }
 
+
 @media (max-width: 767.98px) {
-    p{
-        font-size: 16px;
-    }
     .header {
         background: url(/Images/hero-blur.jpg);
-        /* padding:0 20px 0; */
+        padding: 20px;
         height: 700px;
         position: relative;
     }
-    
+
     .video-container {
-        display: none;
-        height: 0;;
+        visibility: hidden;
     }
-    
+
     .navbar {
-        padding:0;
+        padding: 0 20px;
         z-index: 2;
-        position: fixed;
+        position: absolute;
         left: 0;
         right: 0;
     }
-    
+
     .navbar-nav {
         padding: 0;
         margin-top: 20px;
         background-color: #fff;
     }
-    
+
     .navbar-nav .nav-item {
         color: #000;
         margin: 10px 0;
         display: inline-block;
     }
-    
+
     .header .header-content p {
         width: fit-content;
     }
@@ -468,105 +455,46 @@ footer .navbar-nav .nav-item {
         position: static;
         margin: 100px auto;
     }
-    .about .content .image{
-        height: 400px;
-    }
-    
-    .about .text  {
-        height: fit-content;
-    }
-    .about .text p {
-        height: inherit;
-    }
+
     .how-we-do-it .content {
         flex-direction: column;
         justify-content: center;
     }
-    
+
     .how-we-do-it .content .item {
         align-self: center;
         display: block;
         height: fit-content;
-        max-height: fit-content;
     }
-    
+
     .how-we-do-it .content .item img {
         width: 300px;
         height: 300px;
     }
-    
+
     .how-we-do-it .content .item div {
         width: 300px;
-        height: fit-content;
+        height: 300px;
         margin: 20px 0;
     }
-    .how-we-do-it .content .item div p{
-        height: inherit;
-    }
     .services .container .cards figure{
-        width: 350px;
         padding: 20px;
         height: fit-content;
     }
     .services figure div{
+        /* width: inherit; */
         height: inherit;
     }
-    
+
     .how-we-do-it .content .item-right {
         align-self: center;
-        
-    }
-    .strategies .container .cards .card .card-body {
-        height: fit-content;
-    }
-    .strategies .container .cards .card {
-        height: fit-content;
-    }
-    .strategies .container .cards .card .card-body p {
-        height: fit-content;
-    }
-    .contact-us{
-        padding: 100px;
-    }
-    footer .container{
-        justify-content: center;
-    }
-    footer .content{
-        flex-direction: column;
-        justify-content: center;
-    }
-    footer .first {
-        text-align:center;
-    }
-    
-    .contact {
-        text-align: center;
-    }
-    
-    .location {
-        text-align:center;
-    }
-    
-    .copyright {
-        text-align: center;
-        font-size: 14px;
-        color: #fff;
-        margin: 0 auto;
 
     }
-    .copyright p {
-        text-align: center;
-        width: fit-content;
-    }
     
-    .copyright a {
-        text-align: center;
-        display: block;
-        margin: 5px 0 0;
-    }
-    )
+    @media (max-width: 767.98px) {}
+
     @media (max-width: 991.98px) {}
-    
+
     @media (max-width: 1199.98px) {}
-    
+
     @media (max-width: 1399.98px) {}
