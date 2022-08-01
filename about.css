@@ -33,7 +33,7 @@ header {
   min-height: 100vh;
   transition: 0.5s;
   z-index: 2;
-  background: url(/Images/about-hero-blur.jpg) no-repeat center center;
+  background: url(Images/about-hero-blur.jpg) no-repeat center center;
   background-size: cover;
 }
 
