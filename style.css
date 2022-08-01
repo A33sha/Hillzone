@@ -12,11 +12,6 @@ h2 {
   width: 85%;
   margin: 25px auto;
 }
-
-p {
-  font-size: 20px;
-}
-
 .title {
   margin-bottom: 20px;
 }
@@ -196,19 +191,19 @@ header {
 }
 
 .services .container .cards .item:nth-of-type(1) figure {
-  background: url(/Images/corporate\ banking.jpg) no-repeat center center;
+  background: url(Images/corporate\ banking.jpg) no-repeat center center;
   background-size: cover;
 }
 .services .container .cards .item:nth-of-type(2) figure {
-  background: url(/Images/Direct\ investment.jpg) no-repeat center center;
+  background: url(Images/Direct\ investment.jpg) no-repeat center center;
   background-size: cover;
 }
 .services .container .cards .item:nth-of-type(3) figure {
-  background: url(/Images/Wealth\ management.jpg) no-repeat center center;
+  background: url(Images/Wealth\ management.jpg) no-repeat center center;
   background-size: cover;
 }
 .services .container .cards .item:nth-of-type(4) figure {
-  background: url(/Images/Loans\ \(2\).jpg) no-repeat center center;
+  background: url(Images/Loans\ \(2\).jpg) no-repeat center center;
   background-size: cover;
 }
 
