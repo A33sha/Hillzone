@@ -35,7 +35,7 @@ header {
   min-height: 100vh;
   transition: 0.5s;
   z-index: 2;
-  background: url(/Images/office.png) no-repeat center center;
+  background: url(Images/office.png) no-repeat center center;
   background-size: cover;
 }
 .showcase.active {
@@ -482,7 +482,7 @@ footer .navbar-nav .nav-item {
 
 @media (max-width: 768px) {
   .showcase {
-    background: url(/Images/hero-blur.jpg);
+    background: url(Images/hero-blur.jpg);
     min-height: 500px !important;
   }
   p {
