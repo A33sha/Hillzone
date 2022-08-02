@@ -478,7 +478,6 @@ footer .navbar-nav .nav-item {
 @media (max-width: 768px) {
   .showcase {
     background: url(Images/hero-blur.jpg);
-    min-height: 500px !important;
   }
   p {
     font-size: 16px;
@@ -493,7 +492,7 @@ footer .navbar-nav .nav-item {
     padding-left: 12px;
   }
   .navbar-brand .logo {
-    height: 15px;
+    height: 18px;
   }
   .navbar-toggler-icon {
     background: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.8%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
@@ -567,8 +566,8 @@ footer .navbar-nav .nav-item {
     text-align: center;
   }
 
-  footer .first .navbar-brand {
-    height: 10px;
+  .navbar-brand .logo {
+    height: 12px;
 }
   .contact {
     text-align: center;
