@@ -189,14 +189,20 @@ footer .first {
 footer .first .navbar-brand {
   display: inline-block;
 }
-
+footer .first .links {
+  display: flex;
+  gap:10px;
+}
+footer .first .links a {
+  font-size:20px;
+}
 footer .first .links,
 footer .first .navbar-brand {
   margin-bottom: 25px;
 }
 
 footer .first .navbar-brand .logo {
-  height: 28px;
+  height: 26px;
 }
 
 footer .first .links a {
@@ -268,7 +274,7 @@ footer .navbar-nav .nav-item {
 }
 .reveal {
   position: relative;
-  transform: translateY(100px);
+  transform: translateY(20px);
   opacity: 0;
   transition: all 2s ease;
 }
@@ -286,15 +292,12 @@ footer .navbar-nav .nav-item {
   p {
     font-size: 16px;
   }
-  .showcase {
-    min-height: 500px !important;
-  }
-
-  .navbar-brand {
+ 
+  .showcase .navbar-brand {
     display: inline-block;
     padding-left: 12px;
   }
-  .navbar-brand .logo {
+  .showcase .navbar-brand .logo {
     height: 20px;
   }
   .navbar-toggler-icon {
@@ -337,11 +340,27 @@ footer .navbar-nav .nav-item {
   footer .first {
     text-align: center;
   }
-
+  footer .container .first .navbar-brand .logo {
+    height: 18px;
+  }
+  footer .first .links {
+    justify-content: center;
+  }
+  footer .first .links a {
+    font-size:20px;
+  }
   .contact {
     text-align: center;
   }
-
+  .contact a{
+    font-size: 14px;
+  }
+  .contact h6,
+  .location h6 {
+    font-size: 14px;
+    font-weight: 500;
+  }
+  
   .location {
     text-align: center;
   }
